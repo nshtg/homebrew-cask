@@ -7,6 +7,8 @@ cask 'banking-4' do
   appcast 'https://subsembly.com/banking4-macos-updates.php'
   name 'Banking 4'
   homepage 'https://subsembly.com/banking4.html'
+  
+  auto_updates true
 
   pkg 'MacBanking4.pkg'
 
